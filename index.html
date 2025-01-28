@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="form.css">
-    <script src="form.js" defer></script>
     <title>Sign-up Form</title>
 </head>
 <body>
@@ -60,13 +59,13 @@
                     <div>
                         <label for="password">PASSWORD</label><br>
                         <input type="password" id="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must be 8 characters in length containing at least one number, one uppercase and 
-                        lowercase letter">
+                        lowercase letter" required>
                         
                     </div>
                     <div>
                         <label for="confirmPassword">CONFIRM PASSWORD</label><br>
                         <input type="password" id="confirmPassword" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must be 8 characters in length containing at least one number, one uppercase and 
-                        lowercase letter">
+                        lowercase letter" required>
                     </div>
                 </div>
                 <div class="section3">

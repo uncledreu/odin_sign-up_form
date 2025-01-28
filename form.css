@@ -105,7 +105,46 @@ body{
 /* right side section 1 css settings */
 
 .section1 h2{
-    margin-top: 70px;
+    margin-top: 75px;
+}
+
+.img-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.logo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 150px;
+  margin-top: 220px;
+
+}
+
+.logoWord{
+  display: flex;
+  align-items: center;
+}
+
+.logoWord h1{
+  color:white;
+  font-size: 6rem;
+}
+
+.odinImg img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-section p, .img-section a{
+  color:lightgray;
 }
 
 /* right side section 2 css settings */
@@ -113,8 +152,8 @@ body{
 .name, .contact, .password{
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 28px;
 
 }
 
@@ -129,7 +168,8 @@ body{
 
 form label{
     font-size: .7rem;
-    font-weight: 600;
+    font-weight: 550;
+    color: rgba(0,0,0,0.7);
 
 }
 
@@ -138,6 +178,7 @@ input{
     border-radius: 4px;
     width: 300px;
     height: 35px;
+    font-size: 1.2rem;
 }
 
 input:active, input:focus{
@@ -164,15 +205,12 @@ button {
   margin-bottom: 20px;
 }
 
-form span{
+form a{
   color: var(--green-color);
+  text-decoration: none;
 }
 
 /* add margin on the right side of the elements in each section*/
-.section1 h2{
-  margin-left: 60px;
-}
-
 .section1 h2, .section2 h2, .name, .contact, .password, button, .btnWord p {
   margin-left: 60px;
 }
